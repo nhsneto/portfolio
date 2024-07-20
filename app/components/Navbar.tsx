@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "@/app/components/icons";
+import { Github, Linkedin } from "@/app/icons";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {

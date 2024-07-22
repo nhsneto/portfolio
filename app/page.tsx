@@ -1,28 +1,33 @@
 import Navbar from "@/app/components/Navbar";
+import BottomNav from "@/app/components/BottomNav";
 import { montserrat } from "@/app/fonts";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Navbar />
+    <div className={styles.container}>
+      <div className={styles.navBar}>
+        <Navbar />
+      </div>
 
       <main className={styles.main}>
-        <div className={styles.container}>
-          <div>
-            <h1 className={styles.title}>Nelson Neto</h1>
-            <p className={`${styles.subtitle} ${montserrat.className}`}>
-              Software Developer
-            </p>
-          </div>
-          <p className={`${styles.about} ${montserrat.className}`}>
-            Hi, I&apos;m a junior software developer based in Pernambuco
-            (Brazil), and a software development student at <abbr>IFPE</abbr>{" "}
-            (Instituto Federal de Pernambuco). I&apos;ve developed some projects
-            using <em>PHP</em>, <em>Java</em> and <em>JavaScript</em>.
+        <div>
+          <h1 className={styles.title}>Nelson Neto</h1>
+          <p className={`${styles.subtitle} ${montserrat.className}`}>
+            Software Developer
           </p>
         </div>
+        <p className={`${styles.about} ${montserrat.className}`}>
+          Hi, I&apos;m a junior software developer based in Pernambuco (Brazil),
+          and a software development student at <abbr>IFPE</abbr> (Instituto
+          Federal de Pernambuco). I&apos;ve developed some projects using{" "}
+          <em>PHP</em>, <em>Java</em> and <em>JavaScript</em>.
+        </p>
       </main>
+
+      <div className={styles.bottomNav}>
+        <BottomNav />
+      </div>
     </div>
   );
 }

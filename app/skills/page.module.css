@@ -11,7 +11,7 @@
 .skillsHeading {
   font-size: 1.2rem;
   text-decoration: underline;
-  text-decoration-color: var(--gray);
+  text-decoration-color: rgba(0, 0, 0, 0.3);
   text-underline-offset: 0.2rem;
 }
 

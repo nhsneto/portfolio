@@ -10,10 +10,7 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <div className={styles.container}>
-      <div className={styles.navBar}>
-        <Navbar />
-      </div>
-
+      <Navbar />
       <main>{children}</main>
       <BottomNav />
     </div>

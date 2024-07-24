@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.33rem;
+}
+
+.text {
+  text-wrap: nowrap;
+}
+
+.dots {
+  text-wrap: nowrap;
+  overflow: hidden;
+}

@@ -15,10 +15,7 @@ export default function Layout({ children }: Props) {
       </div>
 
       <main>{children}</main>
-
-      <div className={styles.bottomNav}>
-        <BottomNav />
-      </div>
+      <BottomNav />
     </div>
   );
 }

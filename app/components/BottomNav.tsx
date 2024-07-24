@@ -16,44 +16,46 @@ import styles from "./BottomNav.module.css";
 
 export default function BottomNav() {
   const currentPathname = usePathname();
-  const isHome = currentPathname === "/";
-  const isSkills = currentPathname === "/skills";
-  const isProjects = currentPathname === "/projects";
+  const isHomePage = currentPathname === "/";
+  const isSkillsPage = currentPathname === "/skills";
+  const isProjectsPage = currentPathname === "/projects";
 
   return (
-    <div className={`${styles.container} ${montserrat.className}`}>
-      <Link href="/">
-        <BottomNavItem
-          icon={isHome ? HomeFilled : Home}
-          iconWidth="24px"
-          iconHeight="24px"
-          iconColor="var(--gray)"
-          label="Home"
-          isActive={isHome}
-        />
-      </Link>
+    <div className={styles.bottomNav}>
+      <div className={`${styles.container} ${montserrat.className}`}>
+        <Link href="/">
+          <BottomNavItem
+            icon={isHomePage ? HomeFilled : Home}
+            iconWidth="24px"
+            iconHeight="24px"
+            iconColor="var(--gray)"
+            label="Home"
+            isActive={isHomePage}
+          />
+        </Link>
 
-      <Link href="/skills">
-        <BottomNavItem
-          icon={isSkills ? HandymanFilled : Handyman}
-          iconWidth="24px"
-          iconHeight="24px"
-          iconColor="var(--gray)"
-          label="Skills"
-          isActive={isSkills}
-        />
-      </Link>
+        <Link href="/skills">
+          <BottomNavItem
+            icon={isSkillsPage ? HandymanFilled : Handyman}
+            iconWidth="24px"
+            iconHeight="24px"
+            iconColor="var(--gray)"
+            label="Skills"
+            isActive={isSkillsPage}
+          />
+        </Link>
 
-      <Link href="/projects">
-        <BottomNavItem
-          icon={isProjects ? FolderOpenFilled : FolderOpen}
-          iconWidth="24px"
-          iconHeight="24px"
-          iconColor="var(--gray)"
-          label="Projects"
-          isActive={isProjects}
-        />
-      </Link>
+        <Link href="/projects">
+          <BottomNavItem
+            icon={isProjectsPage ? FolderOpenFilled : FolderOpen}
+            iconWidth="24px"
+            iconHeight="24px"
+            iconColor="var(--gray)"
+            label="Projects"
+            isActive={isProjectsPage}
+          />
+        </Link>
+      </div>
     </div>
   );
 }

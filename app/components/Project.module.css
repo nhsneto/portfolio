@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+}
+
+.description {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.link {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+
+.tagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.75rem;
+  font-weight: 600;
+}

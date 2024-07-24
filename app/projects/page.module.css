@@ -1,0 +1,16 @@
+.container {
+  margin: 0 1.5rem;
+  padding-bottom: 8rem;
+  color: var(--gray);
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.projectList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}

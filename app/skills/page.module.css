@@ -1,0 +1,27 @@
+.container {
+  margin: 0 1.5rem;
+  padding-bottom: 8rem;
+  color: var(--gray);
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.skillsHeading {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.skillsList > section {
+  margin-top: 1rem;
+}
+
+.skills {
+  margin-top: 0.5rem;
+}
+
+.skills > li:not(li:first-child) {
+  margin-top: 0.4rem;
+}

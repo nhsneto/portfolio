@@ -12,3 +12,17 @@
   text-wrap: nowrap;
   overflow: hidden;
 }
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}

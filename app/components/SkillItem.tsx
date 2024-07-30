@@ -12,10 +12,14 @@ export default function SkillItem({ text, level }: Props) {
       <span className={styles.text}>{text}</span>
       <span className={styles.dots}>
         · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
-        · · · · · · · · · · · · · · · · · · · · · · · ·
+        · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+        · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
       </span>
-      <div className={styles.levelBar}>
+      <div className={styles.mobile}>
         <LevelBar width="5rem" height="0.5rem" color="var(--gray)" level={level} />
+      </div>
+      <div className={styles.desktop}>
+        <LevelBar width="6rem" height="0.7rem" color="var(--gray)" level={level} />
       </div>
     </li>
   );

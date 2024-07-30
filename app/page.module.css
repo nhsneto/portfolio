@@ -1,4 +1,5 @@
 .container {
+  max-width: 712px;
   margin: 5rem 1.5rem 0;
   color: var(--gray);
 }
@@ -17,4 +18,22 @@
   margin-top: 2rem;
   font-size: 1.2rem;
   line-height: 1.9;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 5rem 2.5rem 0 4.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin: 5rem 2.5rem 0 7rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    margin: 5rem 2.5rem 0 15rem;
+  }
 }

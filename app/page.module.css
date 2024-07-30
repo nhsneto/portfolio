@@ -22,18 +22,18 @@
 
 @media (min-width: 768px) {
   .container {
-    margin: 5rem 2.5rem 0 4.5rem;
+    margin: 7rem 2.5rem 0 4.5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
-    margin: 5rem 2.5rem 0 7rem;
+    margin: 8rem 2.5rem 0 7rem;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
-    margin: 5rem 2.5rem 0 15rem;
+    margin: 8rem 2.5rem 0 15rem;
   }
 }

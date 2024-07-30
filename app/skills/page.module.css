@@ -16,15 +16,15 @@
 }
 
 .skillsList > section {
-  margin-top: 1rem;
+  margin-top: 2.5rem;
 }
 
 .skills {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .skills > li:not(li:first-child) {
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
 }
 
 @media (min-width: 768px) {

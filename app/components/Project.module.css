@@ -19,6 +19,7 @@
 }
 
 .link {
+  align-self: self-start;
   text-decoration: underline;
   text-underline-offset: 0.2rem;
   text-decoration-color: rgba(0, 0, 0, 0.3);
@@ -37,4 +38,10 @@
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 0.75rem;
   font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 1rem 1.5rem;
+  }
 }

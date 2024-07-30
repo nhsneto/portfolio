@@ -14,3 +14,9 @@
   justify-content: space-evenly;
   color: var(--gray);
 }
+
+@media (min-width: 1024px) {
+  .bottomNav {
+    display: none;
+  }
+}

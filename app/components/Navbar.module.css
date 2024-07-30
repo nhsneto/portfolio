@@ -1,4 +1,4 @@
-.socialsContainer {
+.container {
   margin: 0 1.5rem;
   display: flex;
   justify-content: flex-end;
@@ -6,4 +6,26 @@
   padding: 2rem 0;
   gap: 1.5rem;
   font-size: 1rem;
+  color: var(--gray);
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 0 2.5rem;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
 }

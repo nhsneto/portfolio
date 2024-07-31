@@ -15,7 +15,7 @@ export default function Layout({ children }: Props) {
       <main>{children}</main>
       <BottomNav />
       <footer className={`${styles.footer} ${montserrat.className}`}>
-        &copy; nhsneto.github.com
+        &copy; nhsneto.github.io
       </footer>
     </div>
   );

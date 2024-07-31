@@ -11,10 +11,21 @@ export default function ProjectsPage() {
         <section className={styles.projectList}>
           <Project
             title="Junta-Panelas"
-            description="Web app that helps people to plan their junta-panelas parties (those parties that each guest bring a food/drink."
+            description="Web app that helps people to plan their junta-panelas parties (those parties that each guest bring a food/drink)."
             githubURL="https://github.com/nhsneto/junta-panelas/"
             screenshotsURL="https://drive.google.com/drive/folders/1-jq7UF-ZtDCdiH4yjYX8IwsMHVTzt3xE"
-            tags={["PHP", "Laravel", "Tailwind", "MongoDB", "SQLite", "Blade", "HTML", "CSS", "JQuery", "Pest"]}
+            tags={[
+              "PHP",
+              "Laravel",
+              "Tailwind",
+              "MongoDB",
+              "SQLite",
+              "Blade",
+              "HTML",
+              "CSS",
+              "JQuery",
+              "Pest",
+            ]}
           />
         </section>
       </div>

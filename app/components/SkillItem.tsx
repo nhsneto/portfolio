@@ -10,11 +10,6 @@ export default function SkillItem({ text, level }: Props) {
   return (
     <li className={styles.container}>
       <span className={styles.text}>{text}</span>
-      <span className={styles.dots}>
-        · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
-        · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
-        · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
-      </span>
       <div className={styles.mobile}>
         <LevelBar width="5rem" height="0.5rem" color="var(--gray)" level={level} />
       </div>

@@ -1,7 +1,13 @@
 .container {
   margin: 0 1.5rem;
+  display: flex;
+  justify-content: flex-end;
   padding-bottom: 8rem;
+}
+
+.content {
   color: var(--gray);
+  text-align: right;
 }
 
 .title {

@@ -8,7 +8,7 @@ export default function ProjectsPage() {
       <div className={styles.container}>
         <h1 className={styles.title}>Projects</h1>
 
-        <section className={styles.projectList}>
+        {/* <section className={styles.projectList}>
           <Project
             title="Junta-Panelas"
             description="Web app that helps people to plan their junta-panelas parties (those parties that each guest bring a food/drink)."
@@ -27,7 +27,7 @@ export default function ProjectsPage() {
               "Pest",
             ]}
           />
-        </section>
+        </section> */}
       </div>
     </Layout>
   );

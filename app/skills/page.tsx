@@ -15,12 +15,9 @@ export default function skillsPage() {
             <section>
               <h2 className={styles.skillsHeading}>Frameworks/Libraries</h2>
               <ul className={`${montserrat.className} ${styles.skills}`}>
-                <SkillItem text="Spring Boot" level={Level.Basic} />
-                <SkillItem text="Laravel" level={Level.Basic} />
                 <SkillItem text="Next.js" level={Level.Basic} />
                 <SkillItem text="React" level={Level.Basic} />
-                <SkillItem text="Tailwind CSS" level={Level.Intermediate} />
-                <SkillItem text="JQuery" level={Level.Basic} />
+                <SkillItem text="Tailwind CSS" level={Level.Basic} />
               </ul>
             </section>
 
@@ -37,12 +34,11 @@ export default function skillsPage() {
               <h2 className={styles.skillsHeading}>Languages</h2>
               <ul className={`${montserrat.className} ${styles.skills}`}>
                 <SkillItem text="Java" level={Level.Intermediate} />
-                <SkillItem text="PHP" level={Level.Intermediate} />
                 <SkillItem text="Python" level={Level.Basic} />
                 <SkillItem text="JavaScript" level={Level.Intermediate} />
                 <SkillItem text="TypeScript" level={Level.Basic} />
                 <SkillItem text="XML" level={Level.Intermediate} />
-                <SkillItem text="HTML" level={Level.Intermediate} />
+                <SkillItem text="HTML" level={Level.Advanced} />
                 <SkillItem text="CSS" level={Level.Intermediate} />
               </ul>
             </section>
@@ -51,7 +47,6 @@ export default function skillsPage() {
               <h2 className={styles.skillsHeading}>Testing</h2>
               <ul className={`${montserrat.className} ${styles.skills}`}>
                 <SkillItem text="JUnit" level={Level.Basic} />
-                <SkillItem text="Pest PHP" level={Level.Basic} />
               </ul>
             </section>
           </div>
